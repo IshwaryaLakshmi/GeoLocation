@@ -14,3 +14,5 @@ GeoLocation.xcodeproj/project.xcworkspace/xcuserdata/shyamsundarb.xcuserdatad/Us
 *.xcbkptlist
 
 *.xccheckout
+
+*.json
