@@ -7,13 +7,14 @@
 //
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
-
-@interface ViewController : UIViewController
+#import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+@interface ViewController : UIViewController <MKMapViewDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *latitude;
 @property (weak, nonatomic) IBOutlet UILabel *longitude;
 @property (weak, nonatomic) IBOutlet UILabel *altitude;
 @property (weak, nonatomic) IBOutlet UILabel *speed;
 @property (weak, nonatomic) CLLocationManager *locationManager;
+
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @end
-
-

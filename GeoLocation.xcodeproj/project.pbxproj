@@ -16,6 +16,7 @@
 		002C34F21D68171B00B0415E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002C34F01D68171B00B0415E /* LaunchScreen.xib */; };
 		002C34FE1D68171C00B0415E /* GeoLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 002C34FD1D68171C00B0415E /* GeoLocationTests.m */; };
 		002C35081D68184E00B0415E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002C35071D68184E00B0415E /* CoreLocation.framework */; };
+		DC2FB2961D68264F009C560F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2FB2951D68264F009C560F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		002C34FC1D68171C00B0415E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		002C34FD1D68171C00B0415E /* GeoLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoLocationTests.m; sourceTree = "<group>"; };
 		002C35071D68184E00B0415E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DC2FB2951D68264F009C560F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC2FB2961D68264F009C560F /* MapKit.framework in Frameworks */,
 				002C35081D68184E00B0415E /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +71,7 @@
 		002C34D21D68171B00B0415E = {
 			isa = PBXGroup;
 			children = (
+				DC2FB2951D68264F009C560F /* MapKit.framework */,
 				002C35071D68184E00B0415E /* CoreLocation.framework */,
 				002C34DD1D68171B00B0415E /* GeoLocation */,
 				002C34FA1D68171C00B0415E /* GeoLocationTests */,
@@ -422,6 +426,7 @@
 				002C35031D68171C00B0415E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		002C35041D68171C00B0415E /* Build configuration list for PBXNativeTarget "GeoLocationTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +435,7 @@
 				002C35061D68171C00B0415E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

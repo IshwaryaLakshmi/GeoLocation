@@ -1,0 +1,10 @@
+
+*.plist
+
+GeoLocation.xcodeproj/xcuserdata/shyamsundarb.xcuserdatad/xcschemes/GeoLocation.xcscheme
+
+*.json
+
+GeoLocation/Images.xcassets/AppIcon.appiconset/Contents.json
+
+GeoLocation/Images.xcassets/AppIcon.appiconset/Contents.json
