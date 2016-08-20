@@ -10,3 +10,7 @@ GeoLocation/Images.xcassets/AppIcon.appiconset/Contents.json
 GeoLocation/Images.xcassets/AppIcon.appiconset/Contents.json
 
 GeoLocation.xcodeproj/project.xcworkspace/xcuserdata/shyamsundarb.xcuserdatad/UserInterfaceState.xcuserstate
+
+*.xcbkptlist
+
+*.xccheckout
